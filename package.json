@@ -1,0 +1,16 @@
+{
+    "name": "tdd-node-sample",
+    "version": "1.1.0",
+    "description": "Ejemplo de Desarrollo Guiado por Test en Node JS",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha",
+        "test1": "mocha test/test"
+    },
+    "author": "Ana J. Martínez Montesinos",
+    "license": "MIT",
+    "devDependencies": {
+        "mocha": "^10.2.0",
+        "should": "^13.2.3"
+    }
+}
