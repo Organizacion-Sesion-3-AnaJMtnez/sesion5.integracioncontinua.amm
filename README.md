@@ -1,4 +1,4 @@
-# Sesion5.Integracion_Contiua.AMM
+# Sesion5.Integracion_Continua.AMM
 TDD ¿Es un numero par? NodeJS y Github Actions
 Basado en la fuente: https://www.taniarascia.com/unit-testing-in-javascript/
 
