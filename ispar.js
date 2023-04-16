@@ -1,5 +1,5 @@
 /* Función ispar */
-var par = function espar( x ) {
+var par = function ispar( x ) {
     return !( x & 1 );
   }
 
