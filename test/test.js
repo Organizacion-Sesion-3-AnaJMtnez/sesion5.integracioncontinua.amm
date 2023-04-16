@@ -4,11 +4,11 @@
 var assert = require('assert');
 
 // Cargar el módulo con las funciones para testear
-var operaciones = require('../operations.js');
+var oper = require('../ispar.js');
 
 // Test
-it('comprobar función suma', function() {
-	assert.equal(operaciones.suma(1,3), 4);
-	assert.equal(operaciones.suma(-1,3), 2);
-	assert.equal(operaciones.suma(8,-3), 5);
+it('comprobar función ispar', function() {
+	assert.equal(oper.ispar(2), true);
+	assert.equal(oper.ispar(4), true);
+    assert.equal(oper.ispar(442), true);
 });
